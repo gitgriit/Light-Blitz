@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="22" height="24" tilewidth="32" tileheight="32" nextobjectid="1">
+ <properties>
+  <property name="unity:scale" value="0.01"/>
+ </properties>
+ <tileset firstgid="1" name="build_atlas" tilewidth="32" tileheight="32" tilecount="1024" columns="32">
+  <image source="../../../../../../Programming/Unity/sprites/Light Blitz/LPC Base Assets/build_atlas.png" width="1024" height="1024"/>
+ </tileset>
+ <tileset firstgid="1025" name="obj_misk_atlas" tilewidth="32" tileheight="32" tilecount="1024" columns="32">
+  <image source="../../../../../../Programming/Unity/sprites/Light Blitz/LPC Base Assets/obj_misk_atlas.png" width="1024" height="1024"/>
+ </tileset>
+ <tileset firstgid="2049" name="castlewalls" tilewidth="32" tileheight="32" tilecount="180" columns="12">
+  <image source="../../../../../../Programming/Unity/sprites/Light Blitz/LPC Base Assets/tiles/castlewalls.png" width="384" height="480"/>
+ </tileset>
+ <tileset firstgid="2229" name="cement" tilewidth="32" tileheight="32" tilecount="18" columns="3">
+  <image source="../../../../../../Programming/Unity/sprites/Light Blitz/LPC Base Assets/tiles/cement.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="2247" name="cementstair" tilewidth="32" tileheight="32" tilecount="20" columns="5">
+  <image source="../../../../../../Programming/Unity/sprites/Light Blitz/LPC Base Assets/tiles/cementstair.png" width="160" height="128"/>
+ </tileset>
+ <tileset firstgid="2267" name="chests" tilewidth="32" tileheight="32" tilecount="6" columns="2">
+  <image source="../../../../../../Programming/Unity/sprites/Light Blitz/LPC Base Assets/tiles/chests.png" width="64" height="96"/>
+ </tileset>
+ <tileset firstgid="2273" name="country" tilewidth="32" tileheight="32" tilecount="20" columns="5">
+  <image source="../../../../../../Programming/Unity/sprites/Light Blitz/LPC Base Assets/tiles/country.png" width="160" height="128"/>
+ </tileset>
+ <tileset firstgid="2293" name="cup" tilewidth="32" tileheight="32" tilecount="2" columns="1">
+  <image source="../../../../../../Programming/Unity/sprites/Light Blitz/LPC Base Assets/tiles/cup.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="2295" name="dirt" tilewidth="32" tileheight="32" tilecount="18" columns="3">
+  <image source="../../../../../../Programming/Unity/sprites/Light Blitz/LPC Base Assets/tiles/dirt.png" width="96" height="192"/>
+  <terraintypes>
+   <terrain name="Dirt" tile="-1"/>
+  </terraintypes>
+  <tile id="1" terrain="0,0,0,"/>
+  <tile id="2" terrain="0,0,,0"/>
+  <tile id="4" terrain="0,,0,0"/>
+  <tile id="5" terrain=",0,0,0"/>
+  <tile id="6" terrain=",,,0"/>
+  <tile id="7" terrain=",,0,0"/>
+  <tile id="8" terrain=",,0,"/>
+  <tile id="9" terrain=",0,,0"/>
+  <tile id="10" terrain="0,0,0,0"/>
+  <tile id="11" terrain="0,,0,"/>
+  <tile id="12" terrain=",0,,"/>
+  <tile id="13" terrain="0,0,,"/>
+  <tile id="14" terrain="0,,,"/>
+ </tileset>
+ <tileset firstgid="2313" name="dirt2" tilewidth="32" tileheight="32" tilecount="18" columns="3">
+  <image source="../../../../../../Programming/Unity/sprites/Light Blitz/LPC Base Assets/tiles/dirt2.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="2331" name="dungeon" tilewidth="32" tileheight="32" tilecount="104" columns="13">
+  <image source="../../../../../../Programming/Unity/sprites/Light Blitz/LPC Base Assets/tiles/dungeon.png" width="416" height="256"/>
+ </tileset>
+ <tileset firstgid="2435" name="grass" tilewidth="32" tileheight="32" tilecount="18" columns="3">
+  <image source="../../../../../../Programming/Unity/sprites/Light Blitz/LPC Base Assets/tiles/grass.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="2453" name="grassalt" tilewidth="32" tileheight="32" tilecount="18" columns="3">
+  <image source="../../../../../../Programming/Unity/sprites/Light Blitz/LPC Base Assets/tiles/grassalt.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="2471" name="hole" tilewidth="32" tileheight="32" tilecount="18" columns="3">
+  <image source="../../../../../../Programming/Unity/sprites/Light Blitz/LPC Base Assets/tiles/hole.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="2489" name="holek" tilewidth="32" tileheight="32" tilecount="18" columns="3">
+  <image source="../../../../../../Programming/Unity/sprites/Light Blitz/LPC Base Assets/tiles/holek.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="2507" name="holemid" tilewidth="32" tileheight="32" tilecount="18" columns="3">
+  <image source="../../../../../../Programming/Unity/sprites/Light Blitz/LPC Base Assets/tiles/holemid.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="2525" name="house" tilewidth="32" tileheight="32" tilecount="63" columns="9">
+  <image source="../../../../../../Programming/Unity/sprites/Light Blitz/LPC Base Assets/tiles/house.png" width="288" height="224"/>
+ </tileset>
+ <tileset firstgid="2588" name="inside" tilewidth="32" tileheight="32" tilecount="100" columns="10">
+  <image source="../../../../../../Programming/Unity/sprites/Light Blitz/LPC Base Assets/tiles/inside.png" width="320" height="320"/>
+ </tileset>
+ <tileset firstgid="2688" name="kitchen" tilewidth="32" tileheight="32" tilecount="8" columns="2">
+  <image source="../../../../../../Programming/Unity/sprites/Light Blitz/LPC Base Assets/tiles/kitchen.png" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="2696" name="lava" tilewidth="32" tileheight="32" tilecount="18" columns="3">
+  <image source="../../../../../../Programming/Unity/sprites/Light Blitz/LPC Base Assets/tiles/lava.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="2714" name="lavarock" tilewidth="32" tileheight="32" tilecount="18" columns="3">
+  <image source="../../../../../../Programming/Unity/sprites/Light Blitz/LPC Base Assets/tiles/lavarock.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="2732" name="mountains" tilewidth="32" tileheight="32" tilecount="108" columns="12">
+  <image source="../../../../../../Programming/Unity/sprites/Light Blitz/LPC Base Assets/tiles/mountains.png" width="384" height="288"/>
+ </tileset>
+ <tileset firstgid="2840" name="New Piskel" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="../../../../../../Programming/Unity/sprites/Light Blitz/LPC Base Assets/tiles/New Piskel.png" width="32" height="32"/>
+  <tile id="0">
+   <objectgroup draworder="index">
+    <object id="1" x="0.0625" y="0.0625" width="31.9375" height="32"/>
+   </objectgroup>
+  </tile>
+ </tileset>
+ <tileset firstgid="2841" name="rock" tilewidth="32" tileheight="32" tilecount="2" columns="2">
+  <image source="../../../../../../Programming/Unity/sprites/Light Blitz/LPC Base Assets/tiles/rock.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="2843" name="signs" tilewidth="32" tileheight="32" tilecount="6" columns="3">
+  <image source="../../../../../../Programming/Unity/sprites/Light Blitz/LPC Base Assets/tiles/signs.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="2849" name="stairs" tilewidth="32" tileheight="32" tilecount="112" columns="8">
+  <image source="../../../../../../Programming/Unity/sprites/Light Blitz/LPC Base Assets/tiles/stairs.png" width="256" height="448"/>
+ </tileset>
+ <tileset firstgid="2961" name="treetop" tilewidth="32" tileheight="32" tilecount="42" columns="6">
+  <image source="../../../../../../Programming/Unity/sprites/Light Blitz/LPC Base Assets/tiles/treetop.png" width="192" height="224"/>
+ </tileset>
+ <tileset firstgid="3003" name="trunk" tilewidth="32" tileheight="32" tilecount="18" columns="6">
+  <image source="../../../../../../Programming/Unity/sprites/Light Blitz/LPC Base Assets/tiles/trunk.png" width="192" height="96"/>
+ </tileset>
+ <tileset firstgid="3021" name="victoria" tilewidth="32" tileheight="32" tilecount="55" columns="11">
+  <image source="../../../../../../Programming/Unity/sprites/Light Blitz/LPC Base Assets/tiles/victoria.png" width="352" height="160"/>
+ </tileset>
+ <tileset firstgid="3076" name="water" tilewidth="32" tileheight="32" tilecount="18" columns="3">
+  <image source="../../../../../../Programming/Unity/sprites/Light Blitz/LPC Base Assets/tiles/water.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="3094" name="waterfall" tilewidth="32" tileheight="32" tilecount="15" columns="3">
+  <image source="../../../../../../Programming/Unity/sprites/Light Blitz/LPC Base Assets/tiles/waterfall.png" width="96" height="160"/>
+ </tileset>
+ <tileset firstgid="3109" name="watergrass" tilewidth="32" tileheight="32" tilecount="18" columns="3">
+  <image source="../../../../../../Programming/Unity/sprites/Light Blitz/LPC Base Assets/tiles/watergrass.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="3127" name="barrel" tilewidth="32" tileheight="32" tilecount="8" columns="4">
+  <image source="../../../../../../Programming/Unity/sprites/Light Blitz/LPC Base Assets/tiles/barrel.png" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="3135" name="brackish" tilewidth="32" tileheight="32" tilecount="18" columns="3">
+  <image source="../../../../../../Programming/Unity/sprites/Light Blitz/LPC Base Assets/tiles/brackish.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="3153" name="bridges" tilewidth="32" tileheight="32" tilecount="42" columns="6">
+  <image source="../../../../../../Programming/Unity/sprites/Light Blitz/LPC Base Assets/tiles/bridges.png" width="192" height="224"/>
+ </tileset>
+ <tileset firstgid="3195" name="buckets" tilewidth="32" tileheight="32" tilecount="6" columns="3">
+  <image source="../../../../../../Programming/Unity/sprites/Light Blitz/LPC Base Assets/tiles/buckets.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="3201" name="cabinets" tilewidth="32" tileheight="32" tilecount="78" columns="6">
+  <image source="../../../../../../Programming/Unity/sprites/Light Blitz/LPC Base Assets/tiles/cabinets.png" width="192" height="416"/>
+ </tileset>
+ <tileset firstgid="3279" name="castle_lightsources" tilewidth="32" tileheight="32" tilecount="20" columns="5">
+  <image source="../../../../../../Programming/Unity/sprites/Light Blitz/LPC Base Assets/tiles/castle_lightsources.png" width="160" height="128"/>
+ </tileset>
+ <tileset firstgid="3299" name="castle_outside" tilewidth="32" tileheight="32" tilecount="187" columns="17">
+  <image source="../../../../../../Programming/Unity/sprites/Light Blitz/LPC Base Assets/tiles/castle_outside.png" width="544" height="352"/>
+ </tileset>
+ <tileset firstgid="3486" name="castlefloors" tilewidth="32" tileheight="32" tilecount="100" columns="10">
+  <image source="../../../../../../Programming/Unity/sprites/Light Blitz/LPC Base Assets/tiles/castlefloors.png" width="320" height="320"/>
+ </tileset>
+ <tileset firstgid="3586" name="castlefloors_outside" tilewidth="32" tileheight="32" tilecount="20" columns="4">
+  <image source="../../../../../../Programming/Unity/sprites/Light Blitz/LPC Base Assets/tiles/castlefloors_outside.png" width="128" height="160"/>
+ </tileset>
+ <layer name="Grass" width="22" height="24">
+  <data encoding="csv">
+2450,2450,2451,2451,2450,2450,2451,2450,2450,2451,2450,2452,2450,2451,2451,2452,2452,2450,2450,2452,2450,2445,
+2445,2452,2451,2451,2452,2452,2451,2450,2452,2452,2451,2452,2450,2451,2450,2451,2450,2450,2452,2452,2450,2450,
+2445,2445,2451,2450,2451,2445,2445,2445,2445,2445,2445,2450,2451,2450,2452,2450,2450,2450,2452,2451,2451,2445,
+2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,
+2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,
+2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,
+2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,
+2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,
+2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,
+2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,
+2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,
+2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,
+2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,
+2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,
+2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,
+2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,
+2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,
+2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,
+2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,
+2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,
+2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,
+2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,2445,
+2450,2451,2452,2450,2452,2450,2451,2450,2450,2451,2452,2451,2450,2450,2450,2450,2452,2452,2452,2451,2451,2451,
+2445,2445,2452,2451,2451,2451,2452,2451,2450,2452,2451,2450,2452,2452,2451,2450,2452,2451,2450,2450,2451,2451
+</data>
+ </layer>
+ <layer name="dirt" width="22" height="24">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+2302,2302,2302,2302,2302,2302,2302,2302,2302,2302,2302,2302,2302,2302,2302,2302,2302,2302,2302,2302,2302,2302,
+2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,
+2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,
+2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,
+2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,
+2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,
+2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,
+2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,
+2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,
+2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,
+2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,
+2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,
+2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,
+2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,
+2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,
+2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,
+2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,
+2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,2305,
+2308,2308,2308,2308,2308,2308,2308,2308,2308,2308,2308,2308,2308,2308,2308,2308,2308,2308,2308,2308,2308,2308,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer name="trunk" width="22" height="24">
+  <data encoding="csv">
+3003,3004,3005,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3003,3004,3005,
+3009,3010,3011,0,0,0,0,0,0,0,0,0,0,3006,3007,3008,0,0,0,3009,3010,3011,
+3015,3016,3017,0,0,0,0,0,0,0,0,0,0,3012,3013,3014,0,0,0,3015,3016,3017,
+0,0,0,0,0,0,0,0,0,0,0,0,0,3018,3019,3020,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,3006,3007,3008,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,3012,3013,3014,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3003,3004,3005,
+0,0,3018,3019,3020,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3009,3010,3011,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3015,3016,3017
+</data>
+ </layer>
+ <layer name="treetop" width="22" height="24">
+  <data encoding="csv">
+2973,2974,2975,0,0,0,0,0,0,0,0,0,0,2994,2995,2996,0,0,0,2973,2974,2975,
+0,0,0,0,0,0,0,0,0,0,0,0,0,3000,3001,3002,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,2979,2980,2981,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,2985,2986,2987,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2964,2965,2966,
+0,0,2991,2992,2993,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2970,2971,2972,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2976,2977,2978,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer name="Collision" width="22" height="24">
+  <data encoding="csv">
+0,2840,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2840,0,
+0,2840,0,0,0,0,0,0,0,0,0,0,0,0,2840,0,0,0,0,0,2840,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,2840,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,2840,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,2840,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2840,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+</map>

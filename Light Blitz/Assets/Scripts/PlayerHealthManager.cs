@@ -21,6 +21,10 @@ public class PlayerHealthManager : MonoBehaviour {
 			thePlayer.moveSpeed = 0f;
 			playerCurrentHealth = 0;
 		}
+
+		if (playerCurrentHealth > playerMaxHealth) {
+			playerCurrentHealth = playerMaxHealth;
+		}
 	}
 
 	public void HurtPlayer(int damageToGive)
